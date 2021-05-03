@@ -100,6 +100,7 @@ ul
     position: absolute;
     top: 20px;
     right: 30px;
+    background-color: black;
     z-index: 10;
     cursor: pointer;
 }
@@ -107,9 +108,7 @@ ul
 .links {
     float: left;
     color: red padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
+    
     font-family: fantasy;
     font-size: 20px
 }
@@ -189,6 +188,11 @@ padding: 50px;
     margin-top: -40px;padding: 50px;    
 }
 
+.div6{
+    background: rgb(183,237,249);
+    background: linear-gradient(90deg, rgba(183,237,249,1) 0%, rgba(66,167,245,0.9682247899159664) 100%);
+    margin-top: -40px;padding: 50px;    
+}
 .img1{
 transition: transform .2s;
 border: 10px solid #AAAAAA;    
@@ -197,3 +201,22 @@ border: 10px solid #AAAAAA;
 {
     transform: scale(0.9);
 }
+
+li {
+  float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: firebrick;
+}
+
